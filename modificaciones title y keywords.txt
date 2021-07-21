@@ -1,4 +1,4 @@
-Páginas:
+La información ingresada en mis páginas es la siguiente:
 
 Index 
 Keywords: carrera-online-desarrollo-fullstack, desarrollo-web, viaje, cómo hacer una página web
@@ -8,7 +8,7 @@ título: Tirá para Arriba
 
 Ideas
 Título: Ideas
-Keywords: Parque Nacional los Alerces, Parque Nacional Los Arrayanes, Esquel, diseño web, planificando mi viaje, patagonia, La Hoya, cordillera patagónica.
+Keywords: Mi diseño web, planificando mi sitio web,
 Descripción: Ideas para mi proyecto final.
 
 
@@ -28,4 +28,5 @@ Contacto
 Título: Contacto
 Keywords: carrera-online-desarrollo-fullstack, desarrollo-web, requisitos para hacer un pagina web, info del curso diseño web, descuento en coderhouse
 Descripción: Contacto para recibir info de mi experiencia
+
 
