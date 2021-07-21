@@ -1,2 +1,31 @@
 Páginas:
-inicio: 
+
+Index 
+Keywords: carrera-online-desarrollo-fullstack, desarrollo-web, viaje, cómo hacer una página web
+Descripción: Cómo hacer una página web.
+título: Tirá para Arriba
+
+
+Ideas
+Título: Ideas
+Keywords: Parque Nacional los Alerces, Parque Nacional Los Arrayanes, Esquel, diseño web, planificando mi viaje, patagonia, La Hoya, cordillera patagónica.
+Descripción: Ideas para mi proyecto final.
+
+
+Procesos
+Título: Procesos de viaje
+Keywords: Parque Nacional los Alerces, Parque Nacional Los Arrayanes, Esquel planificando mi viaje, patagonia, La Hoya, cordillera patagónica, San Carlos de Bariloche
+Descripción: Mis notas en viaje por la Patagonia
+
+
+
+Data
+Título: Data
+Keywords: pc-recomendada, desarrollo-web, back end dev, pc para programación backend
+Descripción: Recomendaciones de notebooks para programación
+
+Contacto
+Título: Contacto
+Keywords: carrera-online-desarrollo-fullstack, desarrollo-web, requisitos para hacer un pagina web, info del curso diseño web, descuento en coderhouse
+Descripción: Contacto para recibir info de mi experiencia
+
