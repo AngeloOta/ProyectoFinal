@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.formContact {
+    /*DIV*/
+    width: 100%;
+    height: 100vh;
+    background-image: url(../multimedia/contacto.jpg);
+    background-position: center center;
+    /*bgp toma dos valores, horizontal y vertical*/
+    background-size: cover;
+    /*de esta manera la imagen se amolda en tamaño de nuestra pantalla*/
+
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+    margin-bottom: 60px;
+}
+
+
+.contacto {
+    /*FORMULARIO CONTACTO*/
+    margin: 0 auto;
+    background-color: rgba(250, 240, 250, 0.2);
+    background-position: center;
+    border-radius: 5px;
+    width: 65vh;
+    height: autovh;
+    padding: 10px;
+    box-shadow: 0px 0px 16px 0px rgba(0, 10, 0, 0.4);
+    /*Sombreado a la caja*/
+}
+
+.contacto_fieldset {
+    display: flex;
+    flex-direction: column;
+    border-style: none;
+    font-size: 20px;
+    .contacto_fieldset-input,
+    .contacto_fieldset-textarea {
+        margin: 10px 0;
+        padding: 6px;
+        border: none;
+        border-radius: 5px;
+        border-bottom: 1px brown;
+    }   
+    
+    /*la propiedad de focus es para cuando un elemento está seleccionado para estcribir*/
+
+    .contacto_fieldset-textarea:focus
+    .contacto_fieldset-input:focus{
+        outline: none;
+    }
+    /*de esta manera eliminamos la marcación en negro que se activa alrededos de la caja seleccionada*/
+
+
+    /*Con Resize eliminamos la opción de modificar el tamaño del textarea por parte del usuario*/
+    .contacto_textarea {
+        resize: none;
+    }   
+
+}
+
+.formContact .input:hover {
+    color: white;
+    background-color: brown;
+}
+
+
+
+
+

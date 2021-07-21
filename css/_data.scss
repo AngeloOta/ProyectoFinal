@@ -1,0 +1,125 @@
+/*==PÁGINA DATA: Separación y orden de cajas pc ==*/
+
+
+/*ESTO LO PODRÍA HACER UTILIZANDO LA CONFIGURACIÓN DEL HEADER EN EL INICIO, UTILIZANDO FLEXBOX PARA ESPACIAR CORRECTAMENTE LOS ITEM NOTEBOOKS*/
+/*.artCompu {
+	display: flex;
+	justify-content: space-around;
+
+	background-color: rgba(250, 240, 230, .9);
+	padding: 30px 20px;	
+}
+
+.artCompu article {
+	width: 20%;
+	text-align: center;
+	padding: 10px;
+	color: whitesmoke;
+	border-radius: 4px;
+}
+
+.artCompu article h1 {
+	margin-bottom: 12px;
+	padding: 8px;
+	color: black;
+} 	*/
+
+/* === DIV DONDE VAN LAS VENTANAS DE NOTEBOOKS === */
+
+
+/*ESTILO DE DATA CON GRID*//*se aplica como alternativo ya que está linkeado con Bootstrap*/
+
+.recomendiciónPc {
+    margin: 10px;
+     padding: 10px
+}
+
+.recomendaciónPc h2 {
+    padding: 20px 25p;
+    margin: 35px;
+    color: black;
+
+}
+
+
+img {
+    width: 100%;
+    /* need to overwrite inline dimensions */
+    height: auto;
+}
+
+h2 {
+    margin-bottom: .5em;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-gap: 15px;
+}
+
+
+/* hover styles */
+.pc-recomendada {
+    position: relative;
+    font-size: 10px;
+}
+
+.pcImage {
+    line-height: 0;
+    overflow: hidden;
+}
+
+.pcImage img {
+    filter: blur(0px);
+    transition: filter 0.3s ease-in;
+    transform: scale(1.1);
+}
+
+.dataPc {
+    font-size: 7px;
+    font-weight: bold;
+    text-decoration: none;
+    z-index: 1;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transition: opacity .5s;
+    background: rgba(90, 0, 10, 0.4);
+    color: white;
+
+    /* para que la posición del texto esté centrada en el medio*/
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.pc-recomendada:hover .dataPc {
+    opacity: 1;
+}
+
+.pc-recomendada:hover .pcImage img {
+    filter: blur(5px);
+}
+
+.pc-recomendada:hover .dataPc {
+    transition: 3s;
+    font-size: 0.5rem;
+}
+
+/*+++++ ++++++++ para pantallas táctiles  +++++++ +++++++ */
+
+@media (hover: none) {
+    .dataPc {
+        opacity: 1;
+    }
+
+    .pcImage img {
+        filter: blur(2px);
+    }
+}
+

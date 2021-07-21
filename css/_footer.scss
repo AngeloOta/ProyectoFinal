@@ -1,0 +1,52 @@
+
+/*FOOTER*/
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 10px;
+    background-color: whitesmoke;
+    grid-area: footer;
+
+}
+
+.socialMedia {
+    width: 50%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.socialMedia a {
+    text-decoration: none;
+    background-color: rgba(0, 0, 0, 0.1);
+    ;
+    color: burlywood;
+}
+
+
+
+
+
+
+
+
+/*PÁGINA PROCESOS*/
+
+.rellenoProceso {
+    background-image: url(../multimedia/20210204_211352.jpg);
+    background-position: center center;
+    background-size: cover;
+    width: autovh;
+    height: 100vh;
+}
+
+.rellenoProceso h1 {
+    text-align: center;
+    text-transform: uppercase;
+    /*Utilizamos MAYÚSCULA*/
+    font-size: 21px;
+    /*tamaño de la fuente */
+    font-weight: 800;
+    /*LE DA MÁS GROSOR UPPERCASE*/
+    color: black;
+}
