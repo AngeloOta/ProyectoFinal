@@ -1,0 +1,95 @@
+body, html {
+    padding: 0;
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+    overflow:hidden;
+}
+
+.navIdeas {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    /*dirección del flex por defecto horizontal*/
+    justify-content: space-between;
+    /*etiqueta para ordenar horizontalmente: ordena espacio en cada punta de la caja*/
+    align-items: center;
+    /*etiqueta para ordenar verticalmente: centra el contenido de la caja de manera proporcional*/
+    background-color: whitesmoke;
+    height: 8vh;
+    /*viewport vista porcentual de la pantalla */
+    padding: 10px 10%;
+    /*margin-top: ;/*puede ser -top -rigth -bottom -left: se pueden abreviar si es un solo valor aplica a todos, si son dos aplica 1arriba y abajo y 2 a los costados*/
+    /*en px es amsoluto en %  es relativo*/
+    box-shadow: 0px 0px 16px 0px rgba(0, 0, 0, 0.4);
+    /*Sombreado a la caja*/
+    list-style: none;
+}
+
+.slider {
+    padding: 15px;
+}
+
+.slider li {
+    width: 100vw;
+    height: auto;
+}
+
+
+#slide1 {
+    background-color: #00324b;
+    color: #fff;
+}
+
+#slide2 {
+    background-color: #65bce8;
+    color: #00324b;
+}
+
+#slide3 {
+    background-color: #f90;
+    color: #00324b;
+}
+
+#slide4 {
+    background-color: #00324b;
+    color: #65bce8;
+}
+
+#slide5 {
+    background-color: #65bce8;
+    color: #00324b;
+}
+
+
+
+.navIdeas ul {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.navIdeas ul li {
+    display: flex;
+    flex-grow: 1;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+}
+
+
+
+.navIdeas li:last-child a {
+    border-right: 0;
+}
+
+.navIdeas a:hover {
+    background-color: #00324b;
+    color: #fff;
+    border-top-color: #65bce8;
+}
+
+.navIdeas a:active {
+    border-top-color: #f90;
+    background: #f90;
+    color: #00324b;
+}

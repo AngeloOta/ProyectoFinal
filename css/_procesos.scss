@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
+.rellenoProceso {
+    background-image: url(../multimedia/20210204_211352.jpg);
+    background-position: center center;
+    background-size: cover;
+    width: auto;
+    height: 100vh;
+    display: block;
+    align-items: center;
+    justify-content:initial;
+    .rellenoProceso_contenido {
+        text-align: center;
+        text-transform: uppercase;
+        /*Utilizamos MAYÚSCULA*/
+        font-size: 21px;
+        /*tamaño de la fuente */
+        font-weight: 650;
+        /*LE DA MÁS GROSOR UPPERCASE*/
+        font-family: 'Acme', sans-serif;
+        color: rgba(71, 100, 99, 0.445);
+        .rellenoProceso-index {
+            text-decoration: none;
+        }
+        .rellenoProceso-index:hover {
+            color: rgba(81, 133, 130, 0.445); font-family: arial; text-decoration: none;
+        }
+        .rellenoProceso-index:visited {
+            color: rgb(179, 88, 88);  font-family: arial; text-decoration: none 
+        }
+
+    }
+    
+}

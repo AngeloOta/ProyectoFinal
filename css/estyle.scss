@@ -1,6 +1,7 @@
 @import "contacto";
 @import "data";
 @import "footer";
+@import "procesos";
 
 
 /*MAIN*/
@@ -17,18 +18,18 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    .imgIndex_comentario {
+        font-size: 19px;
+        text-transform: uppercase;
+        font-weight: 750;
+        color: darkkhaki;
+        max-width: 500px;
+        /*ancho máximo*/
+        /*lo mejor es en px y no en % ya que no se desparrama el texto de manera desprolija*/
+        text-align: center;
+    }
 }
 
-.imgIndex h2 {
-    font-size: 19px;
-    text-transform: uppercase;
-    font-weight: 750;
-    color: darkkhaki;
-    max-width: 500px;
-    /*ancho máximo*/
-    /*lo mejor es en px y no en % ya que no se desparrama el texto de manera desprolija*/
-    text-align: center;
-}
 
 .container {
     max-width: 1000px;
@@ -39,15 +40,18 @@
 /*clase etiqueta de contenido reutilizable para varias section de nuestro sitio*/
 
 
-.historia h2,
-h3 {
+.historia_comentario {
     font-size: 25px;
     margin-bottom: 16px;
     text-align: center;
 }
-.historia p a:link {
+.parrafoIndex-coder:link {
     color: black;
     text-decoration: none
 }
-a:hover { color: black; font-family: arial; text-decoration: none }
-a:visited {color: black;  font-family: arial; text-decoration: none }
+.parrafoIndex-coder:hover { color: black; font-family: arial; text-decoration: none }
+.parrafoIndex-coder:visited {color: rgb(117, 75, 75);  font-family: arial; text-decoration: none }
+
+
+
+
