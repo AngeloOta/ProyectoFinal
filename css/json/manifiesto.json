@@ -24,28 +24,28 @@
         "short_name": "Proyecto Final",
         "description": "Mi diseño web, planificando mi sitio web",
         "url": "/ideas.html?source=pwa",
-        "icons": [{ "src": "/images/tomorrow.png", "sizes": "192x192" }]
+        "icons": [{ "src": "../multimedia/facepameta.png", "sizes": "192x192" }]
       },
       {
         "name": "Mi proceso hasta llegar a programar",
         "short_name": "Procesos de viaje",
         "description": "Mis notas en viaje por la Patagonia",
         "url": "/procesos.html?source=pwa",
-        "icons": [{ "src": "/images/today.png", "sizes": "192x192" }]
+        "icons": [{ "src": "../multimedia/facepameta.png", "sizes": "192x192" }]
       },
       {
         "name": "data",
         "short_name": "Notebooks",
         "description": "Herramientas para programar el backend de tu sitio web",
         "url": "/data.html?source=pwa",
-        "icons": [{ "src": "/images/today.png", "sizes": "192x192" }]
+        "icons": [{ "src": "../multimedia/facepameta.png", "sizes": "192x192" }]
       },
       {
         "name": "Formulario de contacto",
         "short_name": "contacto",
         "description": "Crea consulta para que pueda ponerme en contacto luego",
         "url": "/formularios.html?source=pwa",
-        "icons": [{ "src": "/images/today.png", "sizes": "192x192" }]
+        "icons": [{ "src": "../multimedia/facepameta.png", "sizes": "192x192" }]
       }
     ],
     "description": "Aprendiendo a programar",
