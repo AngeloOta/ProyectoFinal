@@ -1,0 +1,64 @@
+{
+    "short_name": "Aprendamos",
+    "name": "Cómo llegué hasta acá",
+    "icons": [
+      {
+        "src": "../multimedia/facepameta.png",
+        "type": "image/png",
+        "sizes": "192x192"
+      },
+      {
+        "src": "../multimedia/facepameta.png",
+        "type": "image/png",
+        "sizes": "512x512"
+      }
+    ],
+    "start_url": "/index.html?source=pwa",
+    "background_color": "#3367D6",
+    "display": "standalone",
+    "scope": "/",
+    "theme_color": "#3367D6",
+    "shortcuts": [
+        {
+        "name": "Ideas para mi proyecto final",
+        "short_name": "Proyecto Final",
+        "description": "Mi diseño web, planificando mi sitio web",
+        "url": "/ideas.html?source=pwa",
+        "icons": [{ "src": "/images/tomorrow.png", "sizes": "192x192" }]
+      },
+      {
+        "name": "Mi proceso hasta llegar a programar",
+        "short_name": "Procesos de viaje",
+        "description": "Mis notas en viaje por la Patagonia",
+        "url": "/procesos.html?source=pwa",
+        "icons": [{ "src": "/images/today.png", "sizes": "192x192" }]
+      },
+      {
+        "name": "data",
+        "short_name": "Notebooks",
+        "description": "Herramientas para programar el backend de tu sitio web",
+        "url": "/data.html?source=pwa",
+        "icons": [{ "src": "/images/today.png", "sizes": "192x192" }]
+      },
+      {
+        "name": "Formulario de contacto",
+        "short_name": "contacto",
+        "description": "Crea consulta para que pueda ponerme en contacto luego",
+        "url": "/formularios.html?source=pwa",
+        "icons": [{ "src": "/images/today.png", "sizes": "192x192" }]
+      }
+    ],
+    "description": "Aprendiendo a programar",
+    "screenshots": [
+      {
+        "src": "/images/screenshot1.png",
+        "type": "image/png",
+        "sizes": "540x720"
+      },
+      {
+        "src": "/images/screenshot2.jpg",
+        "type": "image/jpg",
+        "sizes": "540x720"
+      }
+    ]
+  }
