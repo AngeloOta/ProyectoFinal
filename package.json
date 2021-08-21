@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "purge": "purgecss --css bootstrap/css/bootstrap.css --content pages/ideas.html --output css/_bootstrap.scss"
+    "purge": "purgecss --css bootstrap/css/bootstrap.css --content index.html --output css/bootstrap.css"
   },
   "repository": {
     "type": "git",
