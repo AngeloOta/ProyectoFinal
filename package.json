@@ -1,0 +1,19 @@
+{
+  "name": "desarrolloweb",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "purge": "purgecss --css bootstrap/css/bootstrap.css --content pages/ideas.html --output css/_bootstrap.scss"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AngeloOta/ProyectoFinal.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AngeloOta/ProyectoFinal/issues"
+  },
+  "homepage": "https://github.com/AngeloOta/ProyectoFinal#readme"
+}
