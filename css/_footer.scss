@@ -2,7 +2,7 @@
 /*FOOTER*/
 
 .footer {
-    font-size: 10px;
+    
     display: flex;
     justify-content: space-between;
     padding: 10px 10px;
@@ -21,6 +21,7 @@
 }
 
 .socialMedia a {
+    font-size: 18px;
     text-decoration: none;
     color: rgb(117, 171, 221);
 }
