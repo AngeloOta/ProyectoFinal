@@ -1,8 +1,4 @@
-@import "contacto";
-@import "data";
-@import "footer";
-@import "procesos";
-//@import "bootstrap";
+
 *{
     margin: 0;
     padding: 0;
@@ -84,3 +80,9 @@
   min-width: 100%;
   height: 32rem;
 }
+
+@import "contacto";
+@import "data";
+@import "footer";
+@import "procesos";
+//@import "bootstrap";
